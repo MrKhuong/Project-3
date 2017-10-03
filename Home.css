@@ -1,0 +1,451 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*-------------------------------------------- HEADER ------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+.header{
+	width: 80%;
+	height: 80px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.header div{
+	float: left;
+}
+.logo{
+	width: 25%;
+	height: 100%;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.icon{
+	width: 50%;
+	height: 100%;
+	margin-left: 5%;
+	padding-top: 2%;
+}
+.icon1{
+	width: 37%;
+	height: 100%;
+	margin-left: ;	
+}
+.icon1:nth-child(1){
+	width: 26%;
+}
+.icon1:nth-child(3){
+	margin-left: 3%;
+	width: 34%;
+}
+.icon1 i{
+	font-size: 35px;
+	color: #777;
+}
+.icon1 div:nth-child(2){
+	margin-left: 3%;
+}
+.icon1 div:nth-child(2) p{
+	text-align: center;
+	font-size: 16px;
+}
+.login_register{
+	width: 20%;
+	height: 100%;
+}
+.login_register div{
+	width: 46%;
+	height: 100%;
+	margin-left: 4%;
+	padding-top: 15%;
+}
+.login_register div a{
+	font-size: 20px;
+	text-decoration: none;
+	color:black;
+}
+.login_register div a:hover{
+	text-decoration: underline;	
+}
+/*-------------------------------------------- MENU ------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
+.menu_bar{
+	width: 100%;
+	height: 50px;
+	padding: 8px;
+	background-color: #444;
+}
+.menu_bar input{
+	margin-left: 33%;
+	width: 30%;
+	height: 35px;
+	border: 1px solid white;
+	border-left: none;
+}
+.menu_bar button.search{
+	width: 7%;
+	height: 35px;
+	border: 1px solid white;
+	border-right: none;
+	cursor: pointer;
+	background-color: white;
+	outline: none;
+}
+.menu_bar button.cart{
+	background-color: #F47920;
+	color: white;
+	width: 15%;
+	height: 35px;
+	font-size: 16px;
+	cursor: pointer;
+	border: 1px solid white;
+	margin-left: 5%;
+}
+.menu_bar button.cart i{
+	font-size: 20px;
+}
+/*-------------------------------------------- BODY PART----------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+.body_part{
+	height: 3750px;
+	margin-left: 10%;
+	margin-right: 10%;
+	position: relative;
+}
+.body_part1,
+.body_part2{
+	float: left;
+}
+.body_part1{
+	width: 25%;
+	height: 570px;
+	position: relative;
+	top: -70px;
+	border: 1px solid #c6c6c6;
+	z-index: 2;
+	background-color: ghostwhite;
+}
+.body_part1  .category div{
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	font-size: 20px;
+	padding-left: 25px;
+}
+.body_part1 .category div:first-child{
+	height: 60px;
+	font-weight: bold;
+	padding: 15px;
+	color: white;
+	background-color:#F47920; 
+}
+.body_part1 .category div:hover{
+	background-color:#F47920;
+	color: white; 
+	cursor: pointer;
+	transition: all 1s ease-out;
+}
+/*----------------------------------------------------------------------------------------------*/
+.body_part2{
+	width: 71%;
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-right: 2%;
+	height: 480px;
+}
+.slick-prev,
+.slick-next{
+	display: none !important;
+}
+.body_part2 .movement{
+	height: 450px;
+	position: relative;
+}
+.movement .big_img{
+	width: 100%;
+	height: 100%;
+}
+.movement .big_img  img{
+	width: 100%;
+	height: 100%;
+}
+.small_imgs{
+	width: 250px;
+ 	height: 415px;
+ 	position: absolute;
+ 	top: 3%;
+ 	right: 2%;
+ 	background-color: white;
+}
+.small_imgs div {
+	width: 100%;
+	height: 19%;
+	margin-top: 2%;
+}
+.small_imgs div  img,
+.small_imgs div .content{
+	float: left;
+	height: 100%;
+}	
+.small_imgs div  img{
+	width: 20%;
+	height: 80%;
+	margin-left: 2%;
+}
+.small_imgs div .content{
+	width: 75%;
+	margin-left: 3%;
+}
+/*----------------------------------------------------------------------------------------------*/
+.body_part3{
+	width: 100%;
+	height: 3200px;
+	position: absolute;
+	top: 520px;
+}
+/*----------------------------------------------------------------------------------------------*/
+.types_of_book,
+.book_charts{
+	float: left;
+	height: 100%;
+}
+.types_of_book{
+	width: 72%;
+}
+.general_books{
+	width: 100%;
+	height: 480px;
+	margin-top: 2%;
+}
+#general_books{
+	height: 1300px;
+}
+.title{
+	color: #008340;
+	font-size: 22px;
+}
+.books{
+	width: 100%;
+	height: 350px;
+	margin-top: 5%;
+}
+.books .detailed_book{
+	float: left;
+	width: 15%;
+	height: 250px;	
+	margin-left: 5%;
+}
+.books .detailed_book:nth-child(1){
+	margin-left: 1%;
+}
+.detailed_book div:nth-child(1){
+	height: 207px;
+}
+.horizontally .detailed_book{
+	margin-top: 2.5%;
+}
+.detailed_book div img{
+	width: 100%;
+	height: 100%;
+}
+.detailed_book div img:hover{
+	box-shadow: 1px 2px 5px;
+	border: 1px solid lightblue;
+}
+#detailed_book  a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+#general_books a{
+	font-size: 12px;
+}
+#detailed_book p:last-child{
+	color: red;
+}
+.see_more{
+	float: right;
+	color: black;
+	font-size: 20px;
+	margin-top: 1%;
+	text-decoration: none;
+}
+.see_more:hover{
+	text-decoration: underline;
+	color: blue;
+}
+/*----------------------------------------------------------------------------------------------*/
+.book_charts{
+	width: 25%;
+	margin-left: 3%;
+}
+.general_chart{
+	width: 98%;
+	height: 40%;
+	margin: 1%;
+	border: 1px solid #c6c6c6;
+}
+.general_chart:nth-child(2),
+.get_email{
+	margin-top: 30%!important;
+}
+.general_chart .title{
+	padding-top: 3%;
+	padding-left: 2%;
+}
+.box{
+	width: 100%;
+	height: 9.6%;
+	padding-top: 3%;
+}
+.box #box,
+.box #box2{
+	float: left;
+}
+#box{
+	width: 20%;
+	height: 100%;
+	margin-left: 2%;
+}
+.box div a img{
+	width: 100%;
+	height: 70%;
+}
+.box div a img:hover{
+	border: 1px solid lightblue;
+	box-shadow: 1px 2px 5px;
+}
+.box #box2{
+	width: 73%;
+	height: 100%;
+	margin-left: 5%;
+	line-height: 25px;
+}
+#box2 a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+#box2 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+#box2 p{
+	font-size: 16px;
+}
+#box2 p:last-child{
+	color: red;
+}
+.get_email{
+	border: 1px solid #c6c6c6;
+	height: 13%;
+	width: 98%;
+	margin: 1%;
+	padding: 2%;
+}
+.get_email .title{
+	height: 10%;
+	padding-top: 3%;
+}
+#get_email{
+	height: 30%;
+	width: 100%;
+	margin-top: 15%;
+}
+#get_email p{
+	font-size: 18px;
+}
+.get_email input{
+	width: 95%;
+	height: 35px;
+	margin: 2%;
+	border: 1px solid #c6c6c6;
+	border-radius: 3px;
+}
+.get_email button{
+	float: right;
+	margin-right: 2%;
+	width: 25%;
+	height: 35px;
+	color: white;
+	background-color: #18A662;
+	border:none;
+	border-radius: 3px;
+}
+/*----------------------------------------------------------------------------------------------*/
+.footer{
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	background-color: #ececec;
+}
+.footer .theSecond{	
+	width: 100%;
+	height: 50%;
+	position: absolute;
+}
+.footer .theSecond .one,
+.footer .theSecond .two,
+.footer .theSecond .three,
+.footer .theSecond .four{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.theSecond .one{
+	position: relative;
+}
+.theSecond .one div{
+	position: absolute;
+	left: 50px;
+}
+.theSecond .one .logo div{
+	top: 0;
+}
+.footer .theSecond .two p,
+.footer .theSecond .three p,
+.footer .theSecond .four p{
+	font-size: 18px;
+	line-height: 35px;
+}
+.footer .theSecond .two p a,
+.footer .theSecond .three p a,
+.footer .theSecond .four p a{
+	font-size: 18px;
+	line-height: 35px;
+	color: black;
+	text-decoration: none;
+}
+.footer .theSecond .two p a:hover,
+.footer .theSecond .three p a:hover,
+.footer .theSecond .four p a:hover{
+	color: green;
+}
+.footer .one .btn {
+	width: 50%;
+	height: 100px;
+	left: 0;
+	top: 100px;
+	padding: 10px;
+	margin-left: 20%;
+}
+.footer .one .btn button{
+	width: 39%;
+	height: 35px;
+	cursor: pointer;
+	border: 1px solid #989898;
+	outline: none;
+	float: left;
+	font-size: 23px;
+	background-color: #989898;
+	margin-right: 15px;
+	margin-top: 5%;
+}
+.footer .one .btn button i:hover{
+	transform: scaleX(2);
+}
+.footer .theSecond .two{
+	padding-left: 30px;
+}
